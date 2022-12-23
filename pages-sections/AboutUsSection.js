@@ -18,7 +18,7 @@ export default function AboutUsSection() {
                         <h5 className={classes.description}>
                         Babette has a qualified background of massage and teaching exercise and is a certified TRE provider having trained with TRE for ALL (founder/developer Dr David Berceli of TRE LLC)</h5>
                     </GridItem>
-                    <img className={classes.circleBox} width="200px" alt="Babette Lee" src={img} />
+                    <img width="200px" alt="Babette Lee" src={img} />
                 </GridContainer>
             </div>
         </div>

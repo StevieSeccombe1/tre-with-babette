@@ -2,7 +2,7 @@ import React, {useState} from "react";
 // @material-ui/core components
 import {makeStyles} from "@material-ui/core/styles";
 import styles from "assets/jss/nextjs-material-kit/pages/componentsSections/basicsStyle.js";
-import img from "assets/img/continue.jpg"
+import img from "assets/img/connect.jpg"
 
 const useStyles = makeStyles(styles);
 
@@ -25,7 +25,7 @@ export default function BookingSection() {
                 <div>The Old Town Hall, Town Quay, Shoreham-by-Sea BN43 5DD</div>
                 <p> </p>
                 </div>
-                <img width="200px" alt="Continue" src={img} />
+                <img width="250px" alt="Connect" src={img} />
             </div>
         </div>
     );

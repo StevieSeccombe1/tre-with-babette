@@ -14,6 +14,7 @@ export default function HomePageInfoSection() {
     return (
         <div id="info" className={classes.section}>
             <GridContainer justify="center">
+            <img width="300px" alt="Release" src={img} />
                 <GridItem xs={12} sm={12} md={8}>
                     <h4 className={classes.title}>TRE (TENSION/TRAUMA RELEASING EXERCISES)</h4>
                     <h5 className={classes.description}>
@@ -22,7 +23,6 @@ export default function HomePageInfoSection() {
                     <h5 className={classes.description}>Beginners and all levels welcome.
                     </h5>
                 </GridItem>
-                <img width="200px" alt="Release" src={img} />
             </GridContainer>
         </div>
     );
