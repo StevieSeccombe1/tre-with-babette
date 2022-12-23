@@ -35,7 +35,7 @@ export default function Home(props) {
             <Header
                 color="info"
                 routes={dashboardRoutes}
-                brand="Trauma Release Exercises With Babette"
+                brand="Trauma Releasing Exercises with Babette"
                 rightLinks={<HeaderLinks/>}
                 fixed
                 changeColorOnScroll={{
@@ -44,14 +44,11 @@ export default function Home(props) {
                 }}
                 {...rest}
             />
-            <Parallax filter responsive image={require("../assets/img/CA448FDA-D25F-4170-905B-C49CB6A14DB5.jpeg")}>
+            <Parallax filter responsive image={require("../assets/img/background.jpg")}>
                 <div className={classes.container}>
                     <GridContainer>
                         <GridItem xs={12} sm={12} md={6}>
-                            <h1 className={classes.title}>TENSION/TRAUMA RELEASING EXERCISES</h1>
-                            <h4>
-                            Trauma Release Exercises With Babette, BOOK A CLASS NOW!
-                            </h4>
+                            <h2 className={classes.title}>TENSION/TRAUMA RELEASING EXERCISES WITH BABETTE</h2>
                             <br/>
                             <Link href="#enquiries">
                             <Button
