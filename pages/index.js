@@ -22,6 +22,7 @@ import HomePageInfoSection from "pages-sections/HomePageInfoSection.js";
 import BookingSection from "../pages-sections/BookingSection";
 import AboutUsSection from "pages-sections/AboutUsSection.js";
 import Link from "next/link";
+import TestimonialsSection from "../pages-sections/TestimonialsSection";
 
 const dashboardRoutes = [];
 
@@ -67,6 +68,7 @@ export default function Home(props) {
                     <HomePageInfoSection />
                     <AboutUsSection />
                     <ServicesSection />
+                    {/* <TestimonialsSection /> */}
                     <BookingSection />
                 </div>
             </div>
