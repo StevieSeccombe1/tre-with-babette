@@ -9,16 +9,16 @@ const useStyles = makeStyles(styles);
 
 export default function TestimonialsSection() {
     const settings = {
-        dots: false,
+        dots: true,
         infinite: true,
         speed: 5000,
         slidesToShow: 1,
         slidesToScroll: 1,
-        autoplay: true
+        autoplay: false
     };
     const classes = useStyles();
     return (
-        <div className={classes.sections}>
+        <div id="testimonials" className={classes.sections}>
             <div style={{ textAlign: "center" }} className={classes.container}>
         <h2 className={classes.title}>TESTIMONIALS</h2>
         <div carousel>

@@ -68,7 +68,7 @@ export default function Home(props) {
                     <HomePageInfoSection />
                     <AboutUsSection />
                     <ServicesSection />
-                    {/* <TestimonialsSection /> */}
+                    <TestimonialsSection />
                     <BookingSection />
                 </div>
             </div>

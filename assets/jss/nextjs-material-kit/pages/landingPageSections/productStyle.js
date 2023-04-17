@@ -2,7 +2,7 @@ import { title } from "assets/jss/nextjs-material-kit.js";
 
 const productStyle = {
   section: {
-    padding: "70px 0",
+    padding: "70px 0 20px 0",
     textAlign: "center",
     borderBottom: ".1px solid #999999"
   },

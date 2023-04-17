@@ -14,7 +14,7 @@ export default function Testimonial(props) {
   return (
     <blockquote className={classes.defaultFontStyle + " " + classes.quote}>
       <p className={classes.quoteText}>{text}</p>
-      <small className={classes.quoteAuthor}>{author} - {date}</small>
+      <small className={classes.quoteAuthor}>- {author} {date}</small>
     </blockquote>
   );
 }

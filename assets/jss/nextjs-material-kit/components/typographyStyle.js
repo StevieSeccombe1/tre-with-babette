@@ -17,8 +17,8 @@ const typographyStyle = {
     marginBottom: "10px"
   },
   quote: {
-    padding: "10px 20px",
-    margin: "0 0 20px",
+    padding: "0 20px 0 20px",
+    margin: "0 0 40px",
     fontSize: "17.5px",
     // borderLeft: "5px solid #eee"
   },
