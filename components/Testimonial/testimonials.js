@@ -28,5 +28,20 @@ export const testimonials = [
         text: 'I have been to a few of Babette’s online TRE classes which are ideal for me as I live too far away to attend in person.  Babette explains the process thoroughly and it’s very easy to understand and follow the exercises.  Nothing is rushed and Babette takes the time to ensure everyone is following the exercises correctly.  It’s not too strenuous and I’ve felt a lot of tension release by the end and have always slept incredibly well afterwards.  Babette is friendly and engaging and I would highly recommend TRE to anyone looking for a simple and effective way to combat stress and tension.',
         author: 'Judy',
         date: ''
+    },
+    {
+        text: 'I’d recommend everyone to give TRE a go. I’ve found it helps immensely, not only for stress and emotional trauma, but also physically, helping your body to relax. Babette brings warmth and compassion to all her TRE sessions. She guides you through the exercises, explaining what is happening every step of the way. She also helps you tailor the session to suit you and your needs at the time. I’ve come out of the sessions feeling lighter and more able to process stressful events and grief. An added bonus is the different options to accessing the sessions - 1 to 1, groups or online. This has been useful when I haven’t felt able to face the world! Highly recommended.',
+        author: 'Caroline',
+        date: ''
+    },
+    {
+        text: 'I have attended several of Babette’s TRE classes in Shoreham. She explains the theory and exercises in a very calm and supportive manner within a relaxed environment. I have found TRE to be helpful in easing hip and back pain. I often do the exercises before going to bed and have noticed that afterwards I drift off into a deep sleep within a few minutes of lying down.',
+        author: 'Michael',
+        date: ''
+    },
+    {
+        text: 'I’m so looking forward to my next TRE session with Babette. Although I have done a few now, and know the exercises I still find it’s more powerful in group practice. Since doing TRE I have felt so much more productive & focused...I just seem to get stuff done rather than procrastinating over my to do list .. for me the non verbal element is so good as I’ve had a lot of talking counselling but haven’t always found it effective. TRE just works in a very natural & simple way. Babette is a great facilitator of this process, her explanation and attention to detail, working with a variety of ages & their personal trauma, make the sessions enjoyable & useful for everyone.',
+        author: 'Heather',
+        date: ''
     }
 ];
