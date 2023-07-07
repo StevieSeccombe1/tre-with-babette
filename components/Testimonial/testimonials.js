@@ -43,5 +43,10 @@ export const testimonials = [
         text: 'Babette I want to thank you so much for all of your help and advice over the last year or more, that I have been doing TRE with you. I had a sciatica nerve problem for a long time that nothing would shift or heal it. Now it has gone since I’ve been doing TRE So A BIG THANK YOU to you once again.',
         author: 'Crissy',
         date: ''
+    },
+    {
+        text: 'I’m so looking forward to my next TRE session with Babette. Although I have done a few now, and know the exercises I still find it’s more powerful in group practice. Since doing TRE I have felt so much more productive & focused...I just seem to get stuff done rather than procrastinating over my to do list .. for me the non verbal element is so good as I’ve had a lot of talking counselling but haven’t always found it effective. TRE just works in a very natural & simple way. Babette is a great facilitator of this process, her explanation and attention to detail, working with a variety of ages & their personal trauma, make the sessions enjoyable & useful for everyone.',
+        author: 'Heather',
+        date: ''
     }
 ];
