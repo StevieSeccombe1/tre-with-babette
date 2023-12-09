@@ -1,5 +1,10 @@
 export const testimonials = [
     {
+        text: 'When I first heard about TRE, I must admit, I was a bit sceptical. I have known Babette for many years now and was intrigued by what she told me. I have in recent months had a considerable shift in my mental health after the passing of my mother, I felt tension and anxiety in my body where I have never before. After doing a bit of my own research, I felt prepared to join Babette in a one on one session of TRE. The results were quite spectacular! Although I find it hard to understand exactly why I feel so much better after a session. I do appreciate that the results are quite stark. My stress levels are down, my body feels more relaxed & most importantly my mind feels much clearer. I feel like someone has taken me into the garage and someone has retuned my engine. Thats the best way I can describe it. I had several one-to-one sessions with Babette and continue to use TRE weekly in my own house. I feel very grateful to Babette for her help and guidance and I will continue to use TRE for the rest of my life.',
+        author: 'Greg',
+        date: ''
+    },
+    {
         text: 'From both a 1 to 1 session and a group enviroment, Babette creates an informative, calm & safe space. All my inquisitive questions were answered thoroughly some with great analogies, each time I attend a session my body reacts differently which Babette explained clearly which has helped me get the most from my sessions. I would fully recommend anyone considering embarking on TRE to attend Babettes class to explore the many positives that TRE creates. It\'s the most fantastic gentle self tool you can have. Babette has a very gently, likeable & playful approach with her tuition. I now cant imagine a world without TRE',
         author: 'Nikita',
         date: ''
