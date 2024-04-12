@@ -1,11 +1,12 @@
 import React from "react";
-import Document, { Head, Main, NextScript } from "next/document";
-import { ServerStyleSheets } from "@material-ui/styles";
+import Document, { Html, Head, Main, NextScript } from "next/document";
+import { ServerStyleSheets } from "@mui/styles";
+import Script from 'next/script'
 
 class MyDocument extends Document {
   render() {
     return (
-      <html lang="en">
+      <Html lang="en">
         <Head>
           <meta charSet="utf-8" />
           <meta
@@ -16,13 +17,13 @@ class MyDocument extends Document {
           <link
             rel="apple-touch-icon"
             sizes="76x76"
-            href={require("public/favicon.ico")}
+            // href={require("public/favicon.ico")}
           />
           {/* Fonts and icons */}
           <link
             rel="stylesheet"
             type="text/css"
-            href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons"
+            href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons&display=optional"
           />
           <link
             href="https://use.fontawesome.com/releases/v5.0.10/css/all.css"
@@ -31,16 +32,17 @@ class MyDocument extends Document {
           <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
                 integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
                 crossOrigin=""/>
-          <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
-                  integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
-                  crossOrigin=""/>
+                <Script id="leaflet-script" src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" 
+                integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+                crossOrigin="">
+                </Script>
         </Head>
         <body>
           <div id="page-transition"/>
           <Main />
           <NextScript />
         </body>
-      </html>
+      </Html>
     );
   }
 }

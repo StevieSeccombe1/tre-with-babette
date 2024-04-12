@@ -1,10 +1,9 @@
 import React from "react";
 // nodejs library that concatenates classes
 import classNames from "classnames";
-// @material-ui/core components
-import {makeStyles} from "@material-ui/core/styles";
-
-// @material-ui/icons
+// @mui/material components
+import {ThemeProvider, createTheme} from "@mui/material/styles";
+import {makeStyles} from '@mui/styles'
 
 // core components
 import Header from "components/Header/Header.js";
@@ -23,8 +22,11 @@ import BookingSection from "../pages-sections/BookingSection";
 import AboutUsSection from "pages-sections/AboutUsSection.js";
 import Link from "next/link";
 import TestimonialsSection from "../pages-sections/TestimonialsSection";
+import img from "/assets/img/background.jpg"
 
 const dashboardRoutes = [];
+
+const theme = createTheme();
 
 const useStyles = makeStyles(styles);
 
@@ -32,7 +34,7 @@ export default function Home(props) {
     const classes = useStyles();
     const {...rest} = props;
     return (
-        <div>
+        <ThemeProvider theme={theme}>
             <Header
                 color="info"
                 routes={dashboardRoutes}
@@ -45,7 +47,7 @@ export default function Home(props) {
                 }}
                 {...rest}
             />
-            <Parallax filter responsive image={require("../assets/img/background.jpg")}>
+            <Parallax filter responsive image={img}>
                 <div className={classes.container}>
                     <GridContainer>
                         <GridItem xs={12} sm={12} md={6}>
@@ -72,6 +74,6 @@ export default function Home(props) {
                     <BookingSection />
                 </div>
             </div>
-        </div>
+        </ThemeProvider>
     );
 }

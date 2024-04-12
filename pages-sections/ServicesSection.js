@@ -1,6 +1,7 @@
 import React from "react";
-import {makeStyles} from "@material-ui/core/styles";
+import {makeStyles} from "@mui/styles";
 import GridContainer from "components/Grid/GridContainer.js";
+import Image from "next/image"
 import GridItem from "components/Grid/GridItem.js";
 import InfoArea from "components/InfoArea/InfoArea.js";
 import styles from "assets/jss/nextjs-material-kit/pages/landingPageSections/productStyle.js";
@@ -16,7 +17,7 @@ export default function ServicesSection() {
             <div>
             <h2 className={classes.title}>BENEFITS FROM TRE</h2>
                 <GridContainer justify="center">
-                <img width="300px" alt="Continue" src={img2} />
+                <GridItem xs={12} sm={12} md={4}><Image objectFit="contain" objectPosition="top" alt="Continue" src={img2} /></GridItem>
                     <GridItem xs={12} sm={12} md={4}>
                         <InfoArea
                             description={
@@ -35,7 +36,7 @@ export default function ServicesSection() {
                             vertical
                         />
                     </GridItem>
-                    <img width="300px" alt="Growth" src={img} />
+                    <GridItem xs={12} sm={12} md={4}><Image objectFit="contain" objectPosition="top" alt="Growth" src={img} /></GridItem>
                 </GridContainer>
             </div>
         </div>

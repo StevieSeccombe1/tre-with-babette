@@ -2,10 +2,10 @@
 import React from "react";
 import Link from "next/link";
 
-// @material-ui/core components
-import { makeStyles } from "@material-ui/core/styles";
-import List from "@material-ui/core/List";
-import ListItem from "@material-ui/core/ListItem";
+// @mui/material components
+import { makeStyles } from "@mui/styles";
+import List from "@mui/material/List";
+import ListItem from "@mui/material/ListItem";
 import Button from "components/CustomButtons/Button.js";
 
 import styles from "assets/jss/nextjs-material-kit/components/headerLinksStyle.js";

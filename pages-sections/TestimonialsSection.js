@@ -2,7 +2,7 @@ import React from "react";
 import Carousel from "react-slick";
 import {testimonials} from "../components/Testimonial/testimonials";
 import Testimonial from "../components/Testimonial/Testimonial";
-import {makeStyles} from "@material-ui/core/styles";
+import {makeStyles} from "@mui/styles";
 import styles from "assets/jss/nextjs-material-kit/pages/componentsSections/basicsStyle.js";
 
 const useStyles = makeStyles(styles);
@@ -24,7 +24,7 @@ export default function TestimonialsSection() {
         <div carousel>
             <Carousel {...settings}>
                 {testimonials.map(testimonial => (
-                    <Testimonial author={testimonial.author} text={testimonial.text} date={testimonial.date} />
+                    <Testimonial key={testimonial} author={testimonial.author} text={testimonial.text} date={testimonial.date} />
                 ))}
             </Carousel>
         </div>
