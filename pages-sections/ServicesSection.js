@@ -43,7 +43,7 @@ export default function ServicesSection() {
                                 <li>Grounding: Breath-work and body scan to be present and to notice your body’s sensations</li>
                                 <li>Gentle exercises: Learn the simple TRE exercises to activate your body’s natural tremoring response</li>
                                 <li>Tremoring Phase: Guidance to help your body to tremor naturally and safely</li>
-                                <li>Intergration: Relaxation to let your body absorb the process</li>
+                                <li>Integration: Relaxation to let your body absorb the process</li>
                                 </ul> 
                                   }
                             vertical
