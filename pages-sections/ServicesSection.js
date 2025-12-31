@@ -22,15 +22,15 @@ export default function ServicesSection() {
                         <InfoArea
                             description={
                                 <ul>
-                                 <li>RRelease tension and trauma in the body, including chronic pain</li>
-                                 <li>RRelief from anxiety-driven symptoms like depression, OCD, negative thoughts, procrastination, insomnia, and panic attacks</li>
-                                 <li>RIncreased energy and motivation</li>
-                                 <li>RAssistance in moving forward from grief</li>
-                                 <li>RBetter sleep quality</li>
-                                 <li>RImproved bodily functions such as digestion, immunity, and fertility</li>
-                                 <li>REnhanced emotional resilience</li>
-                                 <li>RIncreased stress resilience</li>
-                                 <li>RGreater sense of calm</li>
+                                 <li>Release tension and trauma in the body, including chronic pain</li>
+                                 <li>Relief from anxiety-driven symptoms like depression, OCD, negative thoughts, procrastination, insomnia, and panic attacks</li>
+                                 <li>Increased energy and motivation</li>
+                                 <li>Assistance in moving forward from grief</li>
+                                 <li>Better sleep quality</li>
+                                 <li>Improved bodily functions such as digestion, immunity, and fertility</li>
+                                 <li>Enhanced emotional resilience</li>
+                                 <li>Increased stress resilience</li>
+                                 <li>Greater sense of calm</li>
                                 </ul>
                             }
                             vertical
