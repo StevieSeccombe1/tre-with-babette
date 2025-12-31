@@ -35,8 +35,8 @@ export default function ServicesSection() {
                             }
                             vertical
                         />
-                         <h4 className={classes.title}>A TRE session includes:</h4>
                          <InfoArea
+                            title={>A TRE session includes:}
                             description={
                                <ul>
                                 <li>Introduction: Learn about the origin of TRE, the process and the benefits</li>
