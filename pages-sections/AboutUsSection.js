@@ -17,7 +17,7 @@ export default function AboutUsSection() {
                 <GridContainer justify="center" className={classes.alignItems}>
                     <GridItem xs={12} sm={12} md={8}>
                         <h5 className={classes.description}>
-                        Babette has a qualified background of massage and teaching exercise and is a certified TRE provider having trained with TRE for ALL (founder/developer Dr David Berceli of TRE LLC)</h5>
+                        Babette is a fully insured certified TRE provider with a background in massage and exercise teaching. She completed the TRE Global Certification Training Programme by Dr. David Berceli in 2022 and has taught TRE to over 200 people.</h5>
                     </GridItem>
                     <GridItem xs={12} sm={12} md={4}><Image objectFit="contain" alt="Babette Lee" src={img} /></GridItem>
                 </GridContainer>
