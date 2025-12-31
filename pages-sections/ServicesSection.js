@@ -35,6 +35,19 @@ export default function ServicesSection() {
                             }
                             vertical
                         />
+                         <div>A TRE session includes:</div>
+                         <InfoArea
+                            description={
+                               <ul>
+                                <li>Introduction: Learn about the origin of TRE, the process and the benefits</li>
+                                <li>Grounding: Breath-work and body scan to be present and to notice your body’s sensations</li>
+                                <li>Gentle exercises: Learn the simple TRE exercises to activate your body’s natural tremoring response</li>
+                                <li>Tremoring Phase: Guidance to help your body to tremor naturally and safely</li>
+                                <li>Intergration: Relaxation to let your body absorb the process</li>
+                                </ul> 
+                                  }
+                            vertical
+                        />
                     </GridItem>
                     <GridItem xs={12} sm={12} md={4}><Image objectFit="contain" objectPosition="top" alt="Growth" src={img} /></GridItem>
                 </GridContainer>
